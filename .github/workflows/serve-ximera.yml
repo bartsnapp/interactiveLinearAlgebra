@@ -43,9 +43,9 @@ jobs:
           GPG_KEY: ${{ secrets.GPG_KEY }}
           GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
           XIMERA_URL: "https://ximera.osu.edu/"
-          XIMERA_NAME: "corela"
+          XIMERA_NAME: "corela2"
           # XIMERA_URL: "https://xerxes.ximera.org/"
-          # XIMERA_NAME: "corela*main"
+          # XIMERA_NAME: "corela2*main"
           # XIMERA_URL: ${{ vars.XIMERA_URL }}
           # XIMERA_NAME: ${{ vars.XIMERA_NAME }}*${{ github.ref_name }}
           XM_COMPILE_SEQUENCE: "html,handout.pdf"
@@ -95,7 +95,7 @@ jobs:
           GPG_KEY: ${{ secrets.GPG_KEY }}
           GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
           XIMERA_URL: "https://xerxes.ximera.org/"
-          XIMERA_NAME: "corela1"
+          XIMERA_NAME: "corela2"
           # XIMERA_URL: ${{ vars.XIMERA_URL }}
           # XIMERA_NAME: ${{ vars.XIMERA_NAME }}
 
